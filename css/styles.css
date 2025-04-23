@@ -11120,9 +11120,8 @@ header.masthead .masthead-heading {
   position: absolute;
   z-index: 100;
   left: 0;
-  width: 80px;
-  height: 80px;
-  margin-left: 0;
+  width: clamp(60px, 10vw, 80px);
+  height: clamp(60px, 10vw, 80px);
   text-align: center;
   color: white;
   border: 7px solid #e9ecef;
